@@ -1,10 +1,14 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 body {
     margin: 0;
     font-family: "Lato", sans-serif;
        background-image: url(szurrelis-kepek-12.jpg);
        background-size: cover;
        background-repeat: no-repeat;
+       
   }
   
   .sidebar {
@@ -15,6 +19,7 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
+    font-family: 'Lato', sans-serif;
   }
   
   .sidebar a {
@@ -57,6 +62,6 @@ body {
     }
   }
  
-  .fel{
-      background-color: azure;
-  }
+.fel{
+    background-color: azure;
+}
