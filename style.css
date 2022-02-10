@@ -65,3 +65,9 @@ body {
 .fel{
     background-color: azure;
 }
+footer{
+  background-color: #555;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+}
