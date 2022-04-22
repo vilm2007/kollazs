@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>div</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <a  index.html">Főoldal</a>
+        <a  href="keplink.html">1. feladat</a>
+        <a href="listak.html">2. feladat</a>
+        <a href="orarend.html">3. feladat </a>
+        <a href="pizza.html">Űrlap</a>
+        <a href="kosar.html">Kosár</a>
+        <a class="active" href="evszakok.html">Évszakok</a>
+        <a href="regisztracio.html">Regisztráció</a>
+        <a href="pitagorasz.html">pitagorasz</a>
+    </div>
+    <div class="container">
+
+        <div class="box1">
+            <img src="nyar.jpg"
+                alt="" width="250%">
+                <p style="color: white;">Nyár</p>
+        </div>
+        <div class="box2">
+            <img src="tavasz.jpg"
+                alt="" width="125%">
+                <p style="color: white;">Tavasz</p>
+        </div>
+        <div class="box3">
+            <img src="osz.jpg"
+                alt="" width="130%">
+                <p style="color: white;">Ősz</p>
+        </div>
+        <div class="box4">
+            <img src="tel.jpg"
+                alt="" width="130%">
+                <p style="color: white;">Tél</p>
+        </div>
+    </div>
+    <style>
+        body{
+    text-align: center;
+    background-color: rgb(27, 65, 122);
+}
+.container{
+   background-image: url(https://pixabay.com/get/g7527a48356c1b248fdf276443972ab8bcd39a9ecbc7b1c2daaa5d34dac64e2b54e10e28448a590988a4d1a228fda0336b914ab400f10b3f61cd26587478e9130d9f51689b11842733a94b49881e8ecdd_1920.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+   width: 1900px;
+height: 400px;
+text-align: center;
+}
+ .box1{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 100px 200px 200px 200px ;
+    transition: 2s;
+ }
+ .box2{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 100px 100px 100px 100px ;
+    transition: 2s;
+ }
+.box3{
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin: 100px 100px 100px 100px ;
+   transition: 2s;
+}
+.box4{
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin: 100px 100px 100px 100px ;
+   transition: 2s;
+}
+ .box1:hover{
+    transform: scale(1.3);
+    border-radius:100px ;
+ }
+ .box2:hover{
+    transform: scale(1.3);
+   border-radius: 100px; 
+ }
+ .box3:hover{
+   transform: scale(1.3);
+   border-radius:100px ;
+}
+.box4:hover{
+   transform: scale(1.3);
+   border-radius:100px ;
+}
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Kosár</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <a  href="index.html">Főoldal</a>
+        <a href="keplink.html">1. feladat</a>
+        <a href="listak.html">2. feladat</a>
+        <a href="orarend.html">3. feladat </a>
+        <a href="pizza.html">Űrlap</a>
+        <a class="active" href="kosar.html" >Kosár</a>
+        <a href="evszakok.html">Évszakok</a>
+        <a href="regisztracio.html">Regisztráció</a>
+        <a href="pitagorasz.html">pitagorasz</a>
+    </div>
+    <button onclick="kosarba('termek1')" style="width: 200px; height: 200px;">Termék1</button>
+    <button onclick="kosarba('termek2')" style="width: 200px; height: 200px;">Termék2</button>
+    <button onclick="kosarba('termek3')" style="width: 200px; height: 200px;">Termék3</button>
+    <br>
+    <br>
+    <button onclick="torles()">törlés</button>
+    <button onclick="kosar()">kosár</button>
+    <br>
+    <br>
+    <table border="2" id="lista"></table>
+</body>
+</html>
+

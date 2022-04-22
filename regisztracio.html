@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgba(75, 114, 85, 0.767);
+            color: aqua;
+            text-align: center;
+        }
+        .szele
+        {
+            width: 400px;
+            height: 40px;
+            background-color: rgb(43, 36, 36);
+            color: rgb(255, 255, 255);
+            border-radius: 8px;
+            margin: 5px;
+            transition: 0.75s;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+        .szele:hover{
+            transform: scale(1.2);
+            border: 4px solid white;
+        }
+    </style>
+</head>
+
+<body>
+<div class="sidebar">
+    <a  href="index.html">Főoldal</a>
+    <a href="keplink.html">1. feladat</a>
+    <a href="listak.html">2. feladat</a>
+    <a href="orarend.html">3. feladat </a>
+    <a href="pizza.html">Űrlap</a>
+    <a href="kosar.html">Kosár</a>
+    <a href="evszakok.html">Évszakok</a>
+    <a class="active" href="regisztracio.html">Regisztráció</a>
+    <a href="pitagorasz.html">pitagorasz</a>
+</div>
+    <h1>Regisztráció</h1>
+
+    <form action="">
+        <input class="szele" style="margin-top: 20px;" type="text" id="" placeholder="neved"><br>
+        <input class="szele" type="email" id="" placeholder="email címed"><br>
+        <input class="szele" type="password" name="" id="" placeholder="jelszó"><br>
+        <input class="szele" type="password" name="" id="" placeholder="jelszó megerősétés"><br>
+
+        <label for="aszf">Elfogadom az ÁSZF</label>        
+        <input type="checkbox" name="aszf" id="" checked><br>
+
+        <input type="submit" value="Regisztráció" onclick="reg()"> <br>
+    </form>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="sidebar">
+    <a  href="index.html">Főoldal</a>
+    <a href="keplink.html">1. feladat</a>
+    <a href="listak.html">2. feladat</a>
+    <a href="orarend.html">3. feladat </a>
+    <a href="pizza.html">Űrlap</a>
+    <a href="kosar.html">Kosár</a>
+    <a href="evszakok.html">Évszakok</a>
+    <a href="regisztracio.html">Regisztráció</a>
+    <a class="active" href="pitagorasz.html">pitagorasz</a>
+</div>
+<div class="pit">
+        <input type="number" name="a" id="var_a" placeholder="a értéke"><br>
+    <input type="number" name="b" id="var_b" placeholder="b értéke"><br><br>
+    <button onclick="pita(var_a.value, var_b.value)">c értéke = </button>
+    <p style="border: 1px solid black; width: 145px; height: 20px; border-radius: 3px;" id="eredmeny"></p>
+</div>
+
+
+    <script>
+        function pita(a, b) {
+            document.getElementById('eredmeny').innerHTML = Math.sqrt(a * a + b * b)
+        }
+    </script>
+
+</body>
+
+</html>
